@@ -196,3 +196,17 @@ h2 {
   margin-top: 80px;
   padding-top: 150px;
 }
+
+.p4 {
+  color: #d4d0d0;
+  letter-spacing: 0.8em;
+  line-height: 30;
+}
+.pro-ul li {
+  list-style: none;
+  float: left;
+  color: white;
+  position: relative;
+  width: 264px;
+  text-align-last: left;
+}
