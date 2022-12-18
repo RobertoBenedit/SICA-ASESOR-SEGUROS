@@ -200,7 +200,7 @@ h2 {
 .p4 {
   color: #d4d0d0;
   letter-spacing: 0.8em;
-  line-height: 30;
+  line-height: 30px;
 }
 .pro-ul li {
   list-style: none;
@@ -209,4 +209,153 @@ h2 {
   position: relative;
   width: 264px;
   text-align-last: left;
+}
+.no {
+  font-size: 60px;
+  font-weight: bold;
+  color: #c23843;
+}
+.head {
+  position: absolute;
+  top: 18px;
+  text-align: left;
+  left: 80px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+}
+.square {
+  width: 15px;
+  height: 15px;
+  background: #c23843;
+  position: absolute;
+  top: 30px;
+  left: -35px;
+}
+section-5 {
+  position: relative;
+}
+.right {
+  width: 50%;
+  float: left;
+  height: 400px;
+  background: #cb3541;
+}
+.content {
+  padding: 50px;
+  color: white;
+}
+section-5 span .right .content {
+  color: #dcdcdc;
+}
+.c-p1 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.c-p2 {
+  line-height: 25px;
+  letter-spacing: 0.8px;
+}
+.right::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #cb3541;
+  right: 47%;
+  top: 165px;
+  transform: rotate(45deg);
+}
+.left {
+  width: 50%;
+  float: left;
+  height: 400px;
+  background: url(Images/asesor8.jpg);
+  background-size: cover;
+}
+
+footer {
+  padding-top: 50px;
+}
+footer img {
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+h4 {
+  color: #cb3541;
+}
+.foot-p {
+  color: #ccc;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 200px;
+  line-height: 22;
+}
+.foot-ul {
+  margin-left: -40px;
+}
+.foot-ul li {
+  list-style: none;
+}
+.foot-ul li a {
+  color: #ccc;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 14px;
+}
+.foot-p {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.foot-ul p span {
+  font-weight: 300;
+  font-size: 13px;
+  color: #ccc;
+}
+.fot-icon {
+  margin-bottom: -6px;
+}
+.foot-bottom {
+  width: 100%;
+  padding: 5px;
+}
+.bot-p {
+  text-align: center;
+  color: #ccc;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 1263) {
+  h1 {
+    font-size: 50px;
+  }
+  .section-4 {
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .col-div-3 {
+    width: 75%;
+  }
+  .nav {
+    float: right;
+  }
+  .box {
+    width: 85%;
+  }
+  .h3 {
+    font-size: 12px;
+  }
+  .p3 {
+    font-size: 12px;
+  }
+  .nav
+  .service-img
+  .container
+  .h1
 }
